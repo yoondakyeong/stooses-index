@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>스투스뜨-숫자를 좋아하는 외계인</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body id="indextwo">
+
+	<!--메인 이미지222 -->
+	<div id="indexx" class="pageboxes">
+		<head>
+			<div class="head-left-icons">
+				<a href="./index.html">
+					<img class="icon-tops" src="./main/img2/icon-top-left.png">
+				</a>
+			</div>
+			<div class="head-right-icons">
+				
+					<img class="icon-tops" id="qicon" src="./main/img2/icon-top-right.png">
+				
+			</div>
+		</head>
+
+		<!--물음표 텍스트으-->
+		<div class="q-wrap" id="qwrap">
+			<img class="indextwo-q" src="./main/img2/indextwo-q.png">
+			<img class="indextwo-q-x" id="qx" src="./main/img2/indextwo-q-x.png">
+		</div>
+		<script type="text/javascript">
+			qicon.onclick = function(){
+					qwrap.style.visibility='visible';
+				}
+			qx.onclick = function(){
+					qwrap.style.visibility='hidden';
+				}
+		</script>
+
+		<div class="section-index">
+			<!--게임선택하기기이이이 말풍선, 캐릭터어어-->
+			<img class="section-index-ju-shadow " src="./main/img2/ju-shadow.png">
+			<img class="section-index-pa-shadow" src="./main/img2/pa-shadow.png">
+			<img class="section-index-th-one-shadow" src="./main/img2/th-one-shadow.png">
+			<img class="section-index-th-two-shadow" src="./main/img2/th-two-shadow.png">
+			<img class="section-index-th-three-shadow" src="./main/img2/th-three-shadow.png">
+
+			<!--말풍선, 캐릭터어어-->
+   			<img class="section-index-th-text" id="game1text" src="./main/img2/th-text.png">
+   			<img class="section-index-pa-text" id="game2text" src="./main/img2/pa-text.png">
+   			<img class="section-index-ju-text" id="game6text" src="./main/img2/ju-text.png">
+
+			<div id="games">
+				<!--게임1-->
+				<a href="./game1page.html" class="gamess1" id="game1">
+					<img class="section-index-game" src="./main/img2/icon-game-one.png">
+				</a>
+				
+				<!--게임2-->
+				<a href="./game2-start.html" class="gamess2" id="game2">
+					<img class="section-index-game " src="./main/img2/icon-game-two.png">
+				</a>
+		
+				<!--게임3-->
+				<a href="" class="gamess22 index-leftpadding">
+					<img class="section-index-game " src="./main/img2/icon-game-three.png">
+				</a>
+			</div>
+
+
+			<div id="games-two">
+				<!--게임4-->
+				<a href="" class="gamess1">
+					<img class="section-index-game" src="./main/img2/icon-game-four.png">
+				</a>
+
+				<!--게임5-->
+				<a href="" class="gamess2">
+					<img class="section-index-game " src="./main/img2/icon-game-five.png">
+				</a>
+				
+				<!--게임6-->
+				<a href="./game6page.html" id="game6" class="gamess22 index-leftpadding">
+					<img class="section-index-game " src="./main/img2/icon-game-six.png">
+				</a>
+			</div>
+
+
+		</div>
+
+		<script type="text/javascript">
+
+			/* 게임1*/
+				game1.onmouseover = function(){
+				 game1text.style.display="block";
+			}
+			game1.onmouseout = function(){
+				 game1text.style.display="none";
+			}
+
+			/* 게임2*/
+				game2.onmouseover = function(){
+				 game2text.style.display="block";
+			}
+			game2.onmouseout = function(){
+				 game2text.style.display="none";
+			}
+
+			/* 게임6*/
+				game6.onmouseover = function(){
+				 game6text.style.display="block";
+			}
+			game6.onmouseout = function(){
+				 game6text.style.display="none";
+			}
+
+		</script>
+
+	</div>
+
+	
+</body>
+</html>
